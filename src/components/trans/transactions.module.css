@@ -1,5 +1,5 @@
-.transactions{
-  width: 350px;
+.transactions {
+  width: 100%;
 
   font-size: 12px;
   line-height: 1.2;
@@ -8,19 +8,16 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 
   border-collapse: collapse;
-
 }
 .thRow {
   font-size: 14px;
   font-weight: 500;
-background-color: aqua;
+  background-color: aqua;
 }
 .row {
-
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   background-color: rgba(0, 0, 0, 0.15);
 }
 .col {
   padding: 8px 16px;
 }
-

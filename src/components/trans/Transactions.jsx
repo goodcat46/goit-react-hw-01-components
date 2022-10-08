@@ -42,9 +42,6 @@ Transaction.propTypes = {
   amount: PropTypes.string,
   currency: PropTypes.string,
 };
-
-Transactions.propTypes = {};
-
 Transactions.propTypes = {
   transactions: PropTypes.arrayOf(
     PropTypes.shape({ id: PropTypes.string.isRequired })
