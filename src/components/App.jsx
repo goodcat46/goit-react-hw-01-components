@@ -6,19 +6,12 @@ import Friends from './friends/Friends';
 import friends from '../friends.json';
 import Transactions from './trans/Transactions';
 import transactions from '../transactions.json';
+import css from './app.module.css'
 
 export const App = () => {
   return (
     <div
-      className="container"
-      style={{
-        minHeight: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
+      className={css.container}
     >
       <Card
         username={user.username}
