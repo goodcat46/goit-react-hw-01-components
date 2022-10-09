@@ -14,7 +14,7 @@ const FriendsItem = ({ avatar, name, isOnline }) => {
   );
 };
 
-const Friends = ({ friends }) => {
+const Friends = ({ friends }) => { 
   return (
     <ul className={css.friendList}>
       {friends.map(({ avatar, isOnline, name, id }) => (
