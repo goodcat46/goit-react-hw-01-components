@@ -24,14 +24,19 @@ const Transactions = ({ transactions }) => {
       </thead>
 
       <tbody>
-        {transactions.map(({ id, type, amount, currency }) => {
-          <Transaction
+        <Transaction
+          type={transactions[0].type}
+          amount={transactions[0].amount}
+          currency={transactions[0].currency}
+        />
+        {transactions.map(({ id, type, amount, currency }) => (
+            <Transaction
             key={id}
             type={type}
             amount={amount}
             currency={currency}
-          />;
-        })}
+          />
+          ))}
       </tbody>
     </table>
   );

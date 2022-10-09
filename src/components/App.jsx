@@ -12,7 +12,7 @@ export const App = () => {
     <div
       className="container"
       style={{
-        height: '100vh',
+        minHeight: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',

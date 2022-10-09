@@ -14,8 +14,7 @@
   font-weight: 500;
   background-color: aqua;
 }
-.row {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+.row:nth-child(even) {
   background-color: rgba(0, 0, 0, 0.15);
 }
 .col {
