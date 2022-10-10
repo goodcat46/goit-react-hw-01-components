@@ -1,11 +1,11 @@
 import Card from './Card/Card';
-import user from './data/user.json';
-import Stats from './Stats/Stats';
-import stats from './data/stats.json';
+import Stats from './Statistics/Statistics';
 import Friends from './Friends/Friends';
-import friends from './data/friends.json';
-import Transactions from './Trans/Transactions';
-import transactions from './data/transactions.json';
+import Transactions from './Transactions/Transactions';
+import user from '../data/user.json';
+import friends from '../data/friends.json';
+import stats from '../data/stats.json';
+import transactions from '../data/transactions.json';
 import css from './app.module.css'
 
 export const App = () => {
